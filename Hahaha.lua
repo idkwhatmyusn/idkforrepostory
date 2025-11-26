@@ -44,8 +44,10 @@ local function safeLoad(url)
 end
 
 -- ⏬ Jika lolos → langsung load script
-safeLoad("https://raw.githubusercontent.com/DyyITT/SansMobaHub/refs/heads/main/FishIt-Premium")
-
+safeLoad("https://paste.monster/KAThKHPYzcmE/raw/")
+safeLoad("https://paste.monster/Bc43d7EeHiyt/raw/")
+task.wait(3)
+safeLoad("https://pastebin.com/raw/3nxCf55f")
 -- 🔄 Re-check setiap 5 detik (auto blacklist)
 task.spawn(function()
     while task.wait(5) do
